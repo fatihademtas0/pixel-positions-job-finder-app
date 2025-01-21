@@ -5,7 +5,7 @@
 
     <div class="py-8">
         <h3 class="group-hover:text-blue-800 text-lg font-bold transition-colors duration-300">{{ $job->title }}</h3>
-        <p class="text-sm mt-4">Full Time {{ $job->salary }}</p>
+        <p class="text-sm mt-4">{{ $job->schedule . ' - ' . $job->salary }}</p>
     </div>
 
     <div class="flex justify-between items-center">

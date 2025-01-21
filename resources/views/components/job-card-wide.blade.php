@@ -11,7 +11,7 @@
     <a href="#" class="self-start text-sm text-gray-400">{{ $job->employer->name }}</a>
 
         <h3 class="font-bold text-xl mt-3 group-hover:text-blue-800 transition-colors duration-300">{{ $job->title }}</h3>
-        <p class="text-sm text-gray-400 mt-auto">Full Time {{ $job->salary }}</p>
+        <p class="text-sm text-gray-400 mt-auto">{{ $job->schedule . ' - ' . $job->salary }}</p>
 
     </div>
 
